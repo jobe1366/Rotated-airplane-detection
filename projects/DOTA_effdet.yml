@@ -1,0 +1,14 @@
+project_name: DOTA_effdet
+train_set: train
+val_set: val
+num_gpus: 1
+
+anchors_ratios:    '[(1.0, 1.0),(2.0, 1.0),(1.0, 2.0) ]'
+anchors_scales:    '[2 ** (0) , 2 ** (1.0 / 2.0) ]'
+anchors_rotations: '[ -90.0 ,-75.0 ,-60.0, -45.0, -30.0, -15.0]'
+
+
+mean: [0.485, 0.456, 0.406]
+std: [0.229, 0.224, 0.225]
+
+obj_list: ['plane']
