@@ -50,7 +50,7 @@ cd utils/nms
 make
 ```
 
-## Train 
+## :dart:Train 
 train procces is based on this great [repo](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch)
 ### A. Prepare dataset  
 you should put your dataset into `datasets` folder and the file tree is below.
@@ -153,7 +153,7 @@ python train.py -c 0 -p your_project_name --train_batch_size 16 --lr 1e-3 \
  --load_weights last \
  --head_only False
 ```
-## Evaluation
+## :dart:Evaluation
 The evaluation stage is impelemented based on the this [paper](https://ieeexplore.ieee.org/abstract/document/9145130)
 
 
