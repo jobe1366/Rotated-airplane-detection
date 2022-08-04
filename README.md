@@ -21,10 +21,10 @@ This rotation airplane detector implemented and modified based on [pytorch imple
 ### Outputs of rotated airplane detector
 
  -Correct detection for all airplanes 
- ![](imgs/outputs of detector.PNG)
+   ![](https://github.com/jobe1366/Rotated-airplane-detection/blob/main/imgs/errors%20in%20detection.PNG)
       
  -Detection of airplanes along with some error
- ![](imgs/errors in detection.PNG)
+   ![](imgs/errors in detection.PNG)
 
 
 
