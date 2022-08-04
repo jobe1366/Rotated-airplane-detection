@@ -1,28 +1,31 @@
 
-# :dart: Rotatated airplane Detector based on EfficientDet   
+# :dart:Rotatated airplane Detector based on EfficientDet   
 
-this rotation airplane detector implementated and modefied based on [pytorch implementing EfficientDet horizontal detector](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch) and you can find original paper [here](https://arxiv.org/abs/1911.09070).
+This rotation airplane detector implemented and modified based on [pytorch implementing EfficientDet horizontal detector](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch) and you can find original paper [here](https://arxiv.org/abs/1911.09070).
 
 ## :dart:My Experiment
-  -Prepare airplane dataset for Task1-Detection with oriented bounding boxes[DOTA dataset](https://captain-whu.github.io/DOTA/)
+  Prepare airplane dataset for Task1-Detection with oriented bounding boxes[DOTA dataset](https://captain-whu.github.io/DOTA/)
 
   
-  -evaluation metrics  
+-evaluation metrics  
 
 |coefficient|Input Size|mAP(iou=.5)|
 |:---------:|:--------:|:---------:|
 |D2         |768 x 768 |0.874      |
 
   
-  -loss curve
+-loss curve
+
 Totall loss =  regression loss + clasification loss
-<img src="![](imgs/loss-curve.PNG)" width="300" height="300"/>
+      ![](imgs/loss-curve.PNG)
 
 ### Outputs of rotated airplane detector
+
  * Correct detection for all airplanes
- ![](imgs/loss-curve.PNG)
+      ![](imgs/loss-curve.PNG)
+      
  * Detection of airplanes along with some error
-  <img src="![](imgs/loss-curve.PNG)" width="300" height="300"/>
+      ![](imgs/loss-curve.PNG)
 
 
 
@@ -50,7 +53,7 @@ cd utils/nms
 make
 ```
 
-## Train 
+## :dart:Train 
 train procces is based on this great [repo](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch)
 ### A. Prepare dataset  
 you should put your dataset into `datasets` folder and the file tree is below.
@@ -153,14 +156,11 @@ python train.py -c 0 -p your_project_name --train_batch_size 16 --lr 1e-3 \
  --load_weights last \
  --head_only False
 ```
-## Evaluation
-The evaluation stage is impelemented based on the following [paper](https://ieeexplore.ieee.org/abstract/document/9145130)
+## :dart:Evaluation
+The evaluation stage is implemented based on the following [paper](https://ieeexplore.ieee.org/abstract/document/9145130)
 
-
-### B. file tree
+### file structure of evaluation stage
 ```
-# file structure of evaluation stage should be as below.
-
 evaluation/
     -gt_labels/
         -*.txt
