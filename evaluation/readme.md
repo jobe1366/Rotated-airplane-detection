@@ -12,7 +12,7 @@
 
 ### file structure should be as below:
 '''
-  evaluation/
+ #evaluation/
     -gt_labels/
         -*.txt
     -result_classname
