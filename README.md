@@ -20,7 +20,7 @@ Totall loss =  regression loss + clasification loss
 
 ### Outputs of rotated airplane detector
  * Correct detection for all airplanes
-  <img src="![](imgs/loss-curve.PNG)" width="300" height="300"/>
+ ![](imgs/loss-curve.PNG)
  * Detection of airplanes along with some error
   <img src="![](imgs/loss-curve.PNG)" width="300" height="300"/>
 
