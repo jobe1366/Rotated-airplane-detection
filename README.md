@@ -154,7 +154,7 @@ python train.py -c 0 -p your_project_name --train_batch_size 16 --lr 1e-3 \
  --head_only False
 ```
 ## Evaluation
-The evaluation stage is impelemented based on the following [paper](https://ieeexplore.ieee.org/abstract/document/9145130)
+The evaluation stage is impelemented based on the this [paper](https://ieeexplore.ieee.org/abstract/document/9145130)
 
 
 ### B. file tree
