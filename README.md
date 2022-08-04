@@ -173,6 +173,7 @@ evaluation/
 
 ## :bulb:References
 The main framework of this project is based on the following very informative repository.
-[Yet-Another-EfficientDet-Pytorch](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch)
+[Yet-Another-EfficientDet-Pytorch]
+(https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch)
 
 
