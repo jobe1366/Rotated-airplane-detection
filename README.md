@@ -15,7 +15,7 @@ This rotation airplane detector implemented and modified based on [pytorch imple
 
   
 -loss curve
- -Totall loss =  regression loss + clasification loss
+ *Totall loss =  regression loss + clasification loss
   ![](imgs/loss-curve.PNG)
 
 ### Outputs of rotated airplane detector
@@ -175,6 +175,6 @@ evaluation/
 
 ## :bulb:References
 The main framework of this project is based on the following very informative repository.
-[https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch)
+[Yet-Another-EfficientDet-Pytorch](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch)
 
 
