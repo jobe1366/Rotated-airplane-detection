@@ -1,7 +1,7 @@
 
 # :dart: Rotateted airplane Detector based on EfficientDet   
 
-this rotation airplane detector implementated and modefied based on [pytorch impelemeenting EfficientDet horizontal detector](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch) and you can find original paper [here](https://arxiv.org/abs/1911.09070).
+this rotation airplane detector implementated and modefied based on [PyTorch implementing EfficientDet horizontal detector](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch) and you can find original paper [here](https://arxiv.org/abs/1911.09070).
 
 ## :dart:My Experiment
   -Prepare airplane dataset for Task1-Detection with oriented bounding boxes[DOTA dataset](https://captain-whu.github.io/DOTA/)
