@@ -15,17 +15,18 @@ This rotation airplane detector implemented and modified based on [pytorch imple
 
   
 -loss curve
--Totall loss =  regression loss + clasification loss
+ -Totall loss =  regression loss + clasification loss
   ![](imgs/loss-curve.PNG)
 
 ### Outputs of rotated airplane detector
 
  -Correct detection for all airplanes 
-   ![](https://github.com/jobe1366/Rotated-airplane-detection/blob/main/imgs/errors%20in%20detection.PNG)
+ 
+   ![](https://github.com/jobe1366/Rotated-airplane-detection/blob/main/imgs/outputs%20of%20detector.PNG)
       
  -Detection of airplanes along with some error
-   ![](imgs/errors in detection.PNG)
-
+ 
+   ![](https://github.com/jobe1366/Rotated-airplane-detection/blob/main/imgs/errors%20in%20detection.PNG)
 
 
 ## :dart:Installation 
