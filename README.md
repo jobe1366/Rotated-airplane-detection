@@ -1,7 +1,7 @@
 
-# :dart: Rotateted airplane Detector based on EfficientDet   
+# :dart: Rotatated airplane Detector based EfficientDet   
 
-this rotation airplane detector implementated and modefied based on [PyTorch implementing EfficientDet horizontal detector](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch) and you can find original paper [here](https://arxiv.org/abs/1911.09070).
+this rotation airplane detector implementated and modefied based on [pytorch impelemeenting EfficientDet horizontal detector](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch) and you can find original paper [here](https://arxiv.org/abs/1911.09070).
 
 ## :dart:My Experiment
   -Prepare airplane dataset for Task1-Detection with oriented bounding boxes[DOTA dataset](https://captain-whu.github.io/DOTA/)
@@ -50,7 +50,7 @@ cd utils/nms
 make
 ```
 
-## :dart:Train 
+## Train 
 train procces is based on this great [repo](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch)
 ### A. Prepare dataset  
 you should put your dataset into `datasets` folder and the file tree is below.
@@ -153,12 +153,14 @@ python train.py -c 0 -p your_project_name --train_batch_size 16 --lr 1e-3 \
  --load_weights last \
  --head_only False
 ```
-## :dart:Evaluation
-The evaluation stage is impelemented based on the this [paper](https://ieeexplore.ieee.org/abstract/document/9145130)
+## Evaluation
+The evaluation stage is impelemented based on the following [paper](https://ieeexplore.ieee.org/abstract/document/9145130)
 
 
-### file structure of evaluation stage
+### B. file tree
 ```
+# file structure of evaluation stage should be as below.
+
 evaluation/
     -gt_labels/
         -*.txt
@@ -173,5 +175,6 @@ evaluation/
 
 ## :bulb:References
 The main framework of this project is based on the following very informative repository.
-[Yet-Another-EfficientDet-Pytorch](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch)
+[https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch)
+
 
