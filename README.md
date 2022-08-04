@@ -1,7 +1,7 @@
 
-# :dart: Rotatated airplane Detector based EfficientDet   
+# :dart: Rotatated airplane Detector based on EfficientDet   
 
-this rotation airplane detector implementated and modefied based on [pytorch impelemeenting EfficientDet horizontal detector](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch) and you can find original paper [here](https://arxiv.org/abs/1911.09070).
+this rotation airplane detector implementated and modefied based on [pytorch implementing EfficientDet horizontal detector](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch) and you can find original paper [here](https://arxiv.org/abs/1911.09070).
 
 ## :dart:My Experiment
   -Prepare airplane dataset for Task1-Detection with oriented bounding boxes[DOTA dataset](https://captain-whu.github.io/DOTA/)
@@ -16,13 +16,13 @@ this rotation airplane detector implementated and modefied based on [pytorch imp
   
   -loss curve
 Totall loss =  regression loss + clasification loss
-<img src="![](imgs/loss-curve.PNG)" width="1000" height="500"/>
+<img src="![](imgs/loss-curve.PNG)" width="300" height="300"/>
 
 ### Outputs of rotated airplane detector
  * Correct detection for all airplanes
-  <img src="![](imgs/loss-curve.PNG)" width="1000" height="500"/>
+  <img src="![](imgs/loss-curve.PNG)" width="300" height="300"/>
  * Detection of airplanes along with some error
-  <img src="![](imgs/loss-curve.PNG)" width="1000" height="500"/>
+  <img src="![](imgs/loss-curve.PNG)" width="300" height="300"/>
 
 
 
