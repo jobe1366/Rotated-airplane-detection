@@ -1,4 +1,4 @@
-## :bulb:evaluation result on custom dataset: 
+## :bulb:Evaluation result on custom dataset: 
 
 
 #1.   by running `prepare.py` result will be  `imgnamefile.txt` and `gt_labels` folder
@@ -11,7 +11,7 @@
 
 
 ### file structure should be as below:
-
+'''
 evaluation/
     -gt_labels/
         -*.txt
@@ -21,3 +21,4 @@ evaluation/
     -eval.py
     -imgnamefile.txt
     -prepare.py
+ '''
