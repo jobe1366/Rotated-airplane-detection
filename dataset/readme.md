@@ -1,19 +1,21 @@
 
 
-## :dart: dataset structure 
+## :dart: dataset structure  
 
 ###dataset structure should be like this
+
  datasets/
-    -your_project_name/
-        -train_set_name/
-            -*.jpg
-        -val_set_name/
-            -*.jpg
-        -annotations
-            -instances_{train_set_name}.json
-            -instances_{val_set_name}.json
+     -your_project_name/
+         -train_set_name/
+             -*.jpg
+         -val_set_name/
+             -*.jpg
+         -annotations
+             -instances_{train_set_name}.json
+             -instances_{val_set_name}.json
 
 ##### for example, coco2017
+
   datasets/
      -coco2017/
          -train2017/
