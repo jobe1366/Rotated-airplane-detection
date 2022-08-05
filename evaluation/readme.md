@@ -1,4 +1,4 @@
-## :bulb:Evaluation result on custom dataset: 
+## :dart:Evaluation result on custom dataset: 
 
 
 #1.   by running `prepare.py` result will be  `imgnamefile.txt` and `gt_labels` folder
@@ -10,9 +10,9 @@
 #4.   get metrics result
 
 
-### file structure should be as below:
-'''
- #evaluation/
+# file structure should be like this.
+
+evaluation/
     -gt_labels/
         -*.txt
     -result_classname
@@ -21,4 +21,3 @@
     -eval.py
     -imgnamefile.txt
     -prepare.py
- '''
