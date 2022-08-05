@@ -1,4 +1,4 @@
-## :dart:Evaluation result on custom dataset: 
+## :dart: Evaluation result on custom dataset: 
 
 
 #1.   by running `prepare.py` result will be  `imgnamefile.txt` and `gt_labels` folder
@@ -9,15 +9,14 @@
 
 #4.   get metrics result
 
+### :dart: file structure should be like this.
 
-# file structure should be like this.
-
-evaluation/
-    -gt_labels/
-        -*.txt
-    -result_classname
-        -Task1_{category_name}.txt
-    -batch_inference.py
-    -eval.py
-    -imgnamefile.txt
-    -prepare.py
+    evaluation/
+         -gt_labels/
+                -*.txt
+         -result_classname
+                -Task1_{category_name}.txt
+         -batch_inference.py
+         -eval.py
+         -imgnamefile.txt
+         -prepare.py
