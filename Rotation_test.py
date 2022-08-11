@@ -3,7 +3,7 @@
 # Author: Zylo117
 
 """
-Simple Inference Rotation Visualize of EfficientDet-D0-Pytorch
+Simple Inference Rotation Visualize of EfficientDet-D2-Pytorch
 """
 import time
 import torch
