@@ -7,13 +7,13 @@ This **rotation airplane detector** implemented and modified based on [pytorch i
   Prepare airplane dataset for Task1-Detection with oriented bounding boxes[DOTA dataset](https://captain-whu.github.io/DOTA/)
 
   
--evaluation metrics  
+- evaluation metrics  
 
 |coefficient|Input Size|mAP(iou=.5)|
 |:---------:|:--------:|:---------:|
 |D2         |768 x 768 |0.874      |
 
- -loss curve
+- loss curve
  
  Totall loss =  regression loss + clasification loss
  
@@ -21,11 +21,11 @@ This **rotation airplane detector** implemented and modified based on [pytorch i
 
 ### Outputs of rotated airplane detector
 
- -Correct detection for all airplanes 
+- Correct detection for all airplanes 
  
    ![](https://github.com/jobe1366/Rotated-airplane-detection/blob/main/imgs/outputs%20of%20detector.PNG)
       
- -Detection of airplanes along with some error
+- Detection of airplanes along with some error
  
    ![](https://github.com/jobe1366/Rotated-airplane-detection/blob/main/imgs/errors%20in%20detection.PNG)
 
