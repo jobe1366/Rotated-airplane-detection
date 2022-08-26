@@ -11,7 +11,7 @@ This **rotation airplane detector** implemented and modified based on [pytorch i
 
 |coefficient|Input Size|mAP(iou=.5)|
 |:---------:|:--------:|:---------:|
-|D2         |768 x 768 |0.874      |
+|D2         |768 x 768 |0.574      |
 
 - loss curve
  
