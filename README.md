@@ -1,5 +1,5 @@
 
-# :dart:_ Rotatated airplane Detector based on EfficientDet _   
+# :dart: Rotatated airplane Detector based on EfficientDet _  
 
 This **rotation airplane detector** is implemented and modified based on [pytorch implementing EfficientDet(horizontal)](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch) and you can find original paper [here](https://arxiv.org/abs/1911.09070 "EfficientDet").
 
